@@ -1,11 +1,27 @@
 import { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
+import { TableOfContents } from "@/components/TableOfContents";
 
 export const metadata: Metadata = {
   title: "About",
   description:
     "Biography of Sangita Acharya Thiruvaiyaru S R Krishnan — Vakgeyakara, Vedic scholar, composer, and exponent of Nama Sankeertanam.",
 };
+
+const tocEntries = [
+  { id: "intro", label: "Introduction" },
+  { id: "the-legacy", label: "The Legacy" },
+  { id: "guru-parampara", label: "Guru Parampara" },
+  { id: "sitayascharitam-mahat", label: "Sitayascharitam Mahat" },
+  { id: "theater-and-composition", label: "Theater & Composition" },
+  { id: "kanchi-paramacharya", label: "Kanchi Paramacharya" },
+  { id: "krishnan-sisters", label: "The Krishnan Sisters" },
+  { id: "lakshminarasimhan", label: "Lakshminarasimhan" },
+  { id: "radha-krishnan", label: "Radha Krishnan" },
+  { id: "beyond-music", label: "Beyond Music" },
+  { id: "the-written-word", label: "The Written Word" },
+  { id: "key-dates", label: "Key Dates" },
+];
 
 export default function AboutPage() {
   return (
@@ -16,7 +32,11 @@ export default function AboutPage() {
       />
 
       <article className="px-6 py-section">
-        <div className="prose max-w-article mx-auto">
+        <div className="max-w-6xl mx-auto flex gap-10">
+          <div className="w-40 flex-none">
+            <TableOfContents entries={tocEntries} />
+          </div>
+          <div className="prose max-w-article flex-1 min-w-0">
           <div className="w-full max-w-2xl mx-auto mb-12">
             <img
               src="/images/site/rs_09230.jpg"
@@ -25,7 +45,7 @@ export default function AboutPage() {
             />
           </div>
 
-          <h1>Sangeetha Acharya Thiruvaiyaru S R Krishnan</h1>
+          <h1 id="intro" className="scroll-mt-24">Sangeetha Acharya Thiruvaiyaru S R Krishnan</h1>
 
           <p>
             Krishnan carries the name of{" "}
@@ -88,7 +108,7 @@ export default function AboutPage() {
 
           <hr />
 
-          <h2>The Legacy</h2>
+          <h2 id="the-legacy" className="scroll-mt-24">The Legacy</h2>
 
           <p>
             Krishnan is a celebrated exponent of{" "}
@@ -112,7 +132,7 @@ export default function AboutPage() {
 
           <hr />
 
-          <h2>The Guru Parampara</h2>
+          <h2 id="guru-parampara" className="scroll-mt-24">The Guru Parampara</h2>
 
           <p>
             Swami Haridoss Giri &mdash; affectionately known as Guruji &mdash;
@@ -139,7 +159,7 @@ export default function AboutPage() {
 
           <hr />
 
-          <h2>Sitayascharitam Mahat</h2>
+          <h2 id="sitayascharitam-mahat" className="scroll-mt-24">Sitayascharitam Mahat</h2>
 
           <p>
             Krishnan&rsquo;s earliest opera and musical compilation on Sri
@@ -163,7 +183,7 @@ export default function AboutPage() {
 
           <hr />
 
-          <h2>Theater and Composition</h2>
+          <h2 id="theater-and-composition" className="scroll-mt-24">Theater and Composition</h2>
 
           <p>
             A thespian since his collegiate years, Krishnan was invited to the
@@ -216,7 +236,7 @@ export default function AboutPage() {
 
           <hr />
 
-          <h2>A Disciple of Kanchi Paramacharya</h2>
+          <h2 id="kanchi-paramacharya" className="scroll-mt-24">A Disciple of Kanchi Paramacharya</h2>
 
           <p>
             A disciple of His Holiness Jagadguru Kanchi Paramacharya (68th
@@ -234,7 +254,7 @@ export default function AboutPage() {
 
           <hr />
 
-          <h2>The Krishnan Sisters</h2>
+          <h2 id="krishnan-sisters" className="scroll-mt-24">The Krishnan Sisters</h2>
 
           <p>
             Krishnan&rsquo;s prime disciples &mdash;{" "}
@@ -266,7 +286,7 @@ export default function AboutPage() {
 
           <hr />
 
-          <h2>Ragasri S. Lakshminarasimhan</h2>
+          <h2 id="lakshminarasimhan" className="scroll-mt-24">Ragasri S. Lakshminarasimhan</h2>
 
           <p>
             Krishnan&rsquo;s younger brother{" "}
@@ -338,7 +358,7 @@ export default function AboutPage() {
 
           <hr />
 
-          <h2>Radha Krishnan</h2>
+          <h2 id="radha-krishnan" className="scroll-mt-24">Radha Krishnan</h2>
 
           <div className="w-full max-w-2xl mx-auto mb-8">
             <img
@@ -371,7 +391,7 @@ export default function AboutPage() {
 
           <hr />
 
-          <h2>Beyond Music</h2>
+          <h2 id="beyond-music" className="scroll-mt-24">Beyond Music</h2>
 
           <p>
             A gold medalist from the renowned University of Madras, India,
@@ -399,7 +419,7 @@ export default function AboutPage() {
 
           <hr />
 
-          <h2>The Written Word</h2>
+          <h2 id="the-written-word" className="scroll-mt-24">The Written Word</h2>
 
           <p>
             Beyond music and banking, Krishnan is a prolific writer. He has
@@ -415,7 +435,7 @@ export default function AboutPage() {
 
           <hr />
 
-          <h2>Key Dates</h2>
+          <h2 id="key-dates" className="scroll-mt-24">Key Dates</h2>
 
           <ul>
             <li><strong>1955</strong> &mdash; First public performance</li>
@@ -450,6 +470,7 @@ export default function AboutPage() {
               Youth Festival
             </li>
           </ul>
+          </div>
         </div>
       </article>
     </>
