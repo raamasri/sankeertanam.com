@@ -78,22 +78,36 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
       <article className="px-6 py-section">
         <div className="prose max-w-article mx-auto">
           <div dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
-          {article.pdfUrl && (
-            <div className="mt-12 pt-8 border-t border-border-subtle">
-              <a
-                href={article.pdfUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-2.5 bg-ink text-cream text-sm font-medium rounded-sm hover:bg-ink-light transition-colors no-underline"
-              >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
-                Download Full Article (PDF)
-              </a>
-            </div>
-          )}
         </div>
+
+        {article.pdfUrl && (
+          <div className="max-w-5xl mx-auto mt-12">
+            <div className="border-t border-border-subtle pt-8 px-6">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="font-serif text-xl text-ink">Full Article</h2>
+                <a
+                  href={article.pdfUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-ink text-cream text-xs font-medium rounded-sm hover:bg-ink-light transition-colors no-underline"
+                >
+                  <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                  </svg>
+                  Download PDF
+                </a>
+              </div>
+              <div className="w-full rounded-sm overflow-hidden border border-border-subtle bg-white shadow-sm">
+                <iframe
+                  src={article.pdfUrl}
+                  title={`${article.title} — Full Article PDF`}
+                  className="w-full"
+                  style={{ height: "80vh", minHeight: "600px" }}
+                />
+              </div>
+            </div>
+          </div>
+        )}
       </article>
     </>
   );
