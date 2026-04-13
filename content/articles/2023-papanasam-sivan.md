@@ -8,5 +8,3 @@ pdfUrl: "/pdfs/2023_Papanasam Sivan.pdf"
 ---
 
 The life of Papanasam Sivan (1890–1973) — from orphaned cook's helper in the Maharaja of Travancore's kitchen to one of the greatest post-Trinity composers of Carnatic music and a celebrated Tamil film lyricist. Blessed with the title "Siva Punya Gaana Mani" by Kanchi Paramacharya, Sivan composed hundreds of works in Tamil and Sanskrit that were sung by every major artist from Ariyakudi Ramanuja Iyengar to M.S. Subbulakshmi. His transformation from a man who walked out of his first classical concert to a devotee of Konerirajapuram Vaidyanatha Bhagavatar's music is one of Carnatic music's most endearing stories.
-
-[Download the full article (PDF)](/pdfs/2023_Papanasam%20Sivan.pdf)

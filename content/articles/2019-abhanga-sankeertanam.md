@@ -12,5 +12,3 @@ An extensive exploration of the Varkari movement of Maharashtra and its immortal
 The article profiles the foundational figures: **Jnaneshvar** (the "Father" of Varkari tradition) who composed the 9,000-verse Jnaneshvari at age 16; **Namdev**, whose songs entered the Sikh Guru Granth Sahib; **Eknath**, the bridge between the early and later saints; **Tukaram**, who sang 4,600 Abhangas and declared the mission of his life after God-realization; and **Samartha Ramdas**, the militant saint who was spiritual guru to Shivaji.
 
 The article also explains the musical structure of Abhangas — their meter, the Dhumali and Bhajani rhythms, the use of Ektari veena — and how modern Carnatic concert artists have increasingly embraced Abhangas, bringing the bhava of these 700-year-old compositions to new audiences worldwide.
-
-[Download the full article (PDF)](/pdfs/2019_Abhanga%20Sankeertanam_Digital.pdf)

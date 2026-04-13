@@ -3,10 +3,16 @@ import { SubscribeForm } from "@/components/SubscribeForm";
 
 const footerLinks = [
   { href: "/about", label: "About" },
+  { href: "/tradition", label: "Tradition" },
+  { href: "/lineage", label: "Lineage" },
+  { href: "/krishnan-sisters", label: "Krishnan Sisters" },
   { href: "/articles", label: "Articles" },
   { href: "/videos", label: "Videos" },
   { href: "/audio", label: "Audio" },
   { href: "/gallery", label: "Gallery" },
+  { href: "/press", label: "Press" },
+  { href: "/glossary", label: "Glossary" },
+  { href: "/contact", label: "Contact" },
 ];
 
 const youtubeLinks = [

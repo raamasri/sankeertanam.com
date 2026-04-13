@@ -23,6 +23,23 @@ export const metadata: Metadata = {
   },
   description:
     "The works, writings, and musical legacy of Sangita Acharya Thiruvaiyaru S R Krishnan — Vakgeyakara, Vedic scholar, and exponent of Nama Sankeertanam & Hari-Katha.",
+  metadataBase: new URL("https://www.sankeertanam.com"),
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Sankeertanam",
+    title: "Sankeertanam — Thiruvaiyaru S R Krishnan",
+    description:
+      "The works, writings, and musical legacy of Sangita Acharya Thiruvaiyaru S R Krishnan — Vakgeyakara, Vedic scholar, and exponent of Nama Sankeertanam & Hari-Katha.",
+    images: [{ url: "/images/site/rs_09230.jpg", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sankeertanam — Thiruvaiyaru S R Krishnan",
+    description:
+      "The works, writings, and musical legacy of Sangita Acharya Thiruvaiyaru S R Krishnan.",
+    images: ["/images/site/rs_09230.jpg"],
+  },
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },

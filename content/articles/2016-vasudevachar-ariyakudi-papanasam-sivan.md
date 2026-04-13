@@ -14,5 +14,3 @@ Three portraits of Carnatic music giants published in the IFAA 2016 Souvenir:
 **Ariyakudi Ramanuja Iyengar** — The sovereign of South Indian classical music who revolutionized the Carnatic concert format, creating the template still followed today. His symbiotic musical partnership with Palghat Mani Iyer became legendary, and his disciples including K.V. Narayanaswamy carried forward his tradition.
 
 **Papanasam Sivan** — Born Ramayya near Thanjavur, he rose from humble beginnings to become one of the greatest post-Trinity composers, known for devotion-driven compositions in Tamil that were sung by every doyen from Ariyakudi to M.S. Subbulakshmi. Blessed with the title "Siva Punya Gaana Mani" by Kanchi Paramacharya.
-
-[Download the full article (PDF)](/pdfs/2016_M.%20Vasudevachar_Ariyakudi%20%26%20P%20Sivan_IFAA.pdf)

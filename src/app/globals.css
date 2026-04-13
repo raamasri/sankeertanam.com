@@ -123,6 +123,10 @@ main > section + section {
   margin: 3em 0;
 }
 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;

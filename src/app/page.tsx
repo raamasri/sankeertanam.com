@@ -1,12 +1,14 @@
 import Link from "next/link";
 import { getAllArticles } from "@/lib/markdown";
-import { getFeaturedVideo } from "@/lib/videos";
+import { getFeaturedVideo, getLatestVideos } from "@/lib/videos";
 import { ContentCard } from "@/components/ContentCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { VideoEmbed } from "@/components/VideoEmbed";
+import { VideoCarousel } from "@/components/VideoCarousel";
 export default function Home() {
   const articles = getAllArticles("articles").slice(0, 3);
   const featuredVideo = getFeaturedVideo();
+  const latestVideos = getLatestVideos(10);
 
   return (
     <>
@@ -84,6 +86,28 @@ export default function Home() {
                 </p>
               </div>
             </div>
+            <div className="mt-8">
+              <Link
+                href="/videos"
+                className="text-sm text-saffron hover:text-saffron-dark transition-colors"
+              >
+                View all videos &rarr;
+              </Link>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Latest Videos Carousel */}
+      {latestVideos.length > 0 && (
+        <section className="px-6 py-section bg-cream">
+          <div className="max-w-content mx-auto">
+            <SectionHeading
+              label="Videos"
+              title="Latest from YouTube"
+              description="Recent performances, discourses, and devotional music."
+            />
+            <VideoCarousel videos={latestVideos} />
             <div className="mt-8">
               <Link
                 href="/videos"

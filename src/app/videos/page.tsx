@@ -32,6 +32,10 @@ const latestFromChannels = [
 export default function VideosPage() {
   const allVideos = getAllVideos();
   const categories = getVideoCategories(allVideos);
+  const narayaneeyamVideos = allVideos.filter(
+    (v) => v.category === "Narayaneeyam"
+  );
+  const narayaneeyamCount = narayaneeyamVideos.length;
 
   return (
     <>
@@ -74,6 +78,53 @@ export default function VideosPage() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Featured Collection: Narayaneeyam */}
+      <section className="px-6 py-section bg-cream">
+        <div className="max-w-content mx-auto">
+          <span className="text-xs uppercase tracking-widest text-saffron font-medium block mb-3">
+            Featured Collection
+          </span>
+          <h2 className="font-serif text-display-sm text-ink mb-3">
+            Narayaneeyam
+          </h2>
+          <p className="text-body text-ink-light max-w-2xl mb-6">
+            A complete musical rendition of Melpathur Narayana
+            Bhattathiri&rsquo;s 1,034-verse devotional poem summarizing the
+            Srimad Bhagavatam. Each of the {narayaneeyamCount} Dasakams is
+            performed and set to a specific Carnatic raga.
+          </p>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+            {narayaneeyamVideos.slice(0, 10).map((v) => (
+              <a
+                key={v.youtubeId}
+                href={`https://www.youtube.com/watch?v=${v.youtubeId}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group"
+              >
+                <div className="relative aspect-video rounded-sm overflow-hidden bg-ink/5">
+                  <img
+                    src={`https://img.youtube.com/vi/${v.youtubeId}/hqdefault.jpg`}
+                    alt={v.title}
+                    loading="lazy"
+                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                </div>
+                <p className="mt-2 text-xs text-ink-light leading-snug line-clamp-2 group-hover:text-saffron transition-colors">
+                  {v.title}
+                </p>
+              </a>
+            ))}
+          </div>
+          <p className="mt-6 text-sm text-ink-muted">
+            Showing 10 of {narayaneeyamCount} Dasakams.{" "}
+            <span className="text-saffron">
+              Browse all in the Archive below under &ldquo;Narayaneeyam.&rdquo;
+            </span>
+          </p>
         </div>
       </section>
 

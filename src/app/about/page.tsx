@@ -17,7 +17,7 @@ export default function AboutPage() {
 
       <article className="px-6 py-section">
         <div className="prose max-w-article mx-auto">
-          <div className="w-full max-w-md mx-auto mb-12">
+          <div className="w-full max-w-2xl mx-auto mb-12">
             <img
               src="/images/site/rs_09230.jpg"
               alt="Thiruvaiyaru S R Krishnan"
@@ -26,6 +26,18 @@ export default function AboutPage() {
           </div>
 
           <h1>Sangeetha Acharya Thiruvaiyaru S R Krishnan</h1>
+
+          <p>
+            Krishnan carries the name of{" "}
+            <strong>Thiruvaiyaru</strong> &mdash; the sacred village in Tamil
+            Nadu&rsquo;s Thanjavur district where Saint Tyagaraja, one of the
+            Trinity of Carnatic music, lived for over eighty years and composed
+            thousands of devotional kritis. Situated on the banks of the Kaveri
+            at the confluence of five rivers, Thiruvaiyaru is the site of the
+            annual Tyagaraja Aradhana, the largest gathering of Carnatic
+            musicians in the world. To bear this village&rsquo;s name is to
+            carry a lineage inseparable from the tradition itself.
+          </p>
 
           <p>
             <strong>Srinivasa Raghava Krishnan</strong> is a Vedic scholar,
@@ -59,7 +71,10 @@ export default function AboutPage() {
             Indian Fine Arts Academy, United States of America, and also became
             the honoree of the <strong>Lifetime Achievement Award</strong> for
             his 60-year contribution to the world of both systems of Indian
-            Music.
+            Music. He continues to serve IFAASD as Chief Guest at their annual
+            and youth festivals, and has contributed scholarly articles to their
+            festival souvenirs every year since 2011 &mdash; a sustained
+            intellectual contribution spanning more than fifteen years.
           </p>
 
           <hr />
@@ -86,14 +101,60 @@ export default function AboutPage() {
             since 1959.
           </p>
 
+          <hr />
+
+          <h2>The Guru Parampara</h2>
+
+          <p>
+            Swami Haridoss Giri &mdash; affectionately known as Guruji &mdash;
+            was born in Thennangur, Tamil Nadu, and became the chief disciple of
+            the revered Swami Gnanananda Giri at Thapovanam near
+            Thiruvannamalai. Adept in Sri Vidya worship and Hatha Yoga, Guruji
+            was instrumental in spreading{" "}
+            <strong>Dakshina Sampradaya Namasankeertanam</strong> throughout
+            India and across the world. He established the Panduranga Temple
+            dedicated to Vitthala in Thennangur and traveled widely &mdash; to
+            Singapore, Malaysia, and beyond &mdash; singing bhajans and giving
+            discourses on the Bhagavatham, Bhagavad Gita, and Ramayana.
+          </p>
+
+          <p>
+            Krishnan&rsquo;s association with Guruji, beginning in 1959, placed
+            him in a direct spiritual lineage stretching from Gnanananda Giri
+            through Haridoss Giri to the present. When Guruji took Jalasamadhi
+            &mdash; a conscious, meditative departure &mdash; in the Alaknanda
+            river at Koteswar in the Himalayas on September 4, 1994, the
+            tradition he had carried forward continued through disciples like
+            Krishnan.
+          </p>
+
+          <hr />
+
+          <h2>Sitayascharitam Mahat</h2>
+
           <p>
             Krishnan&rsquo;s earliest opera and musical compilation on Sri
-            Ramayanam, titled <em>&ldquo;Sitayascaritam Mahat&rdquo;</em>, set
-            to musical score by Sangeeta Kalanidhi Mudikondan Venkatarama Iyer
-            and Padma Bhushan Musiri Subrahmanya Iyer, and choreographed by
-            Padma Bhushan Dr. V. Raghavan, was acclaimed widely and honored by
-            Sir C.P. Ramaswamy Iyer.
+            Ramayanam, titled <em>&ldquo;Sitayascaritam Mahat&rdquo;</em>, was
+            set to musical score by Sangeeta Kalanidhi Mudikondan Venkatarama
+            Iyer and Padma Bhushan Musiri Subrahmanya Iyer, and choreographed by
+            Padma Bhushan Dr. V. Raghavan. The work was acclaimed widely and
+            honored by Sir C.P. Ramaswamy Iyer.
           </p>
+
+          <p>
+            In December 2016, the opera was revived and staged at the Lohman
+            Theatre, Foothill College, Los Altos, in the San Francisco Bay Area
+            &mdash; supported by the Asian Art Museum of San Francisco. The
+            production retold the Ramayana through the lens of its female
+            characters: the bewildered Kaikeyi, the wretched Manthara, the vile
+            Shurpanaka, the sagacious Trijata, and Sita, the epitome of virtue.
+            Krishnan&rsquo;s daughter Priya Krishnan Parameswaran was
+            instrumental in co-producing the staging.
+          </p>
+
+          <hr />
+
+          <h2>Theater and Composition</h2>
 
           <p>
             A thespian since his collegiate years, Krishnan was invited to the
@@ -116,9 +177,8 @@ export default function AboutPage() {
           </p>
 
           <p>
-            He has hundreds of live recordings and scores of his live recordings
-            released in compact discs are now available, free, online under the
-            audio section and on two YouTube dedicated channels &mdash;{" "}
+            He has hundreds of live recordings now available free online across
+            two dedicated YouTube channels &mdash;{" "}
             <a
               href="https://www.youtube.com/@ragasri-narasimhan51"
               target="_blank"
@@ -134,7 +194,13 @@ export default function AboutPage() {
             >
               GuruBhakti
             </a>
-            .
+            . The Ragasri channel is named in tribute to his father&rsquo;s
+            compositional mudra. Among the most significant bodies of work on
+            these channels is the complete{" "}
+            <strong>Narayaneeyam</strong> series &mdash; a musical rendition of
+            all the Dasakams of Melpathur Narayana Bhattathiri&rsquo;s
+            1034-verse devotional poem summarizing the Srimad Bhagavatam, each
+            set to a specific Carnatic raga.
           </p>
 
           <hr />
@@ -155,15 +221,36 @@ export default function AboutPage() {
             family in the 1980s.
           </p>
 
+          <hr />
+
+          <h2>The Krishnan Sisters</h2>
+
           <p>
             Krishnan&rsquo;s prime disciples &mdash;{" "}
             <strong>
               Priya Krishnan Parameswaran, Harini Krishnan Vikas, and Subhapriya
               Krishnan Srivatsan
-            </strong>
-            , known as the &lsquo;Krishnan Sisters&rsquo; (aka California
-            Sisters) &mdash; are acclaimed Carnatic musicians settled in the San
-            Francisco Bay area, California.
+            </strong>{" "}
+            &mdash; are acclaimed Carnatic musicians settled in the San
+            Francisco Bay Area. Known as the &lsquo;Krishnan Sisters&rsquo; in
+            Europe and the United States, and the &lsquo;California
+            Sisters&rsquo; in India, the three began touring internationally as
+            children in 1979.
+          </p>
+
+          <p>
+            Harini received advanced training under the eminent musicologist Dr.
+            S. Ramanathan. Subhapriya, who performs in both Carnatic and
+            Hindustani styles, currently serves as President of LOTUS, a Bay
+            Area Carnatic music organization. She is married to Hemmige
+            Srivatsan, a renowned vocalist and violinist. The tradition now
+            extends to a fourth generation through all three sisters&rsquo;
+            children: Priya&rsquo;s children Kaanchana and Shankara;
+            Harini&rsquo;s daughters Janani and Abhaya Krishnan-Jha; and
+            Subhapriya&rsquo;s sons Raama, Keshavan, and Hari Srivatsan
+            &mdash; a four-generation musical lineage stretching from{" "}
+            <em>Gana-Bhushanam</em> Kumaramangalam Srinivasa-Raghavan through
+            Krishnan, through the Sisters, to their children.
           </p>
 
           <p>
@@ -176,7 +263,7 @@ export default function AboutPage() {
 
           <h2>Radha Krishnan</h2>
 
-          <div className="w-full max-w-md mx-auto mb-8">
+          <div className="w-full max-w-2xl mx-auto mb-8">
             <img
               src="/images/site/img_4570.jpg"
               alt="Krishnan and Radha"
@@ -186,12 +273,13 @@ export default function AboutPage() {
 
           <p>
             Krishnan&rsquo;s wife <strong>Radha</strong>, a retired banker from
-            the Reserve Bank of India, has been a musicologist. She was a famous
-            mountaineer who climbed, in 1966, one of the peaks of the Himalayas
-            under training from Sherpa Tenzing Norgay, the record-holding
-            pioneer who conquered the summit of Mt. Everest in 1953 with Edmund
-            Hillary. She was awarded the Silver Axe by the Chief of Army in 1966
-            for her feat as a pioneering woman mountaineer.
+            the Reserve Bank of India, has been a musicologist. In 1966 &mdash;
+            at a time when women mountaineers in India were exceptionally rare
+            &mdash; she climbed one of the peaks of the Himalayas under training
+            from Sherpa Tenzing Norgay, the record-holding pioneer who had
+            conquered the summit of Mt. Everest just thirteen years earlier with
+            Edmund Hillary. She was awarded the Silver Axe by the Chief of Army
+            Staff in 1966 for her feat as a pioneering woman mountaineer.
           </p>
 
           <p>
@@ -231,6 +319,60 @@ export default function AboutPage() {
             Krishnan currently serves as the Special Deputy Commissioner of the
             California Department of Financial Protection and Innovation.
           </p>
+
+          <hr />
+
+          <h2>The Written Word</h2>
+
+          <p>
+            Beyond music and banking, Krishnan is a prolific writer. He has
+            worked as a journalist and spiritual writer, and is the author of
+            novels and operatic scripts. His scholarly articles &mdash; exploring
+            the lives of musical saints, the philosophical traditions of Bhakti,
+            and the history of Carnatic music &mdash; have been published
+            annually in the Indian Fine Arts Academy festival souvenirs since
+            2011, forming a body of work that spans subjects from Saint
+            Tyagaraja and Narayana Teertha to the Mahabharata and the legacy of
+            Mahatma Gandhi.
+          </p>
+
+          <hr />
+
+          <h2>Key Dates</h2>
+
+          <ul>
+            <li><strong>1955</strong> &mdash; First public performance</li>
+            <li>
+              <strong>1959</strong> &mdash; Begins performing with Swami
+              Haridoss Giri (Guruji)
+            </li>
+            <li><strong>1965</strong> &mdash; Begins banking career</li>
+            <li>
+              <strong>1979</strong> &mdash; European tour with daughters, the
+              Krishnan Sisters
+            </li>
+            <li>
+              <strong>1980s</strong> &mdash; Settles in the United States with
+              family
+            </li>
+            <li>
+              <strong>2008</strong> &mdash; Awarded &lsquo;Sangeeta
+              Acharya&rsquo; by Indian Fine Arts Academy, USA
+            </li>
+            <li>
+              <strong>2011&ndash;present</strong> &mdash; Annual scholarly
+              articles for IFAASD festival souvenirs
+            </li>
+            <li>
+              <strong>2016</strong> &mdash;{" "}
+              <em>Sitayascharitam Mahat</em> staged at Foothill College, Bay
+              Area
+            </li>
+            <li>
+              <strong>2023</strong> &mdash; Chief Guest, IFAASD North American
+              Youth Festival
+            </li>
+          </ul>
         </div>
       </article>
     </>

@@ -47,6 +47,11 @@ export function getVideoCategories(videos: VideoEntry[]): VideoCategory[] {
   }));
 }
 
+export function getLatestVideos(count = 10): VideoEntry[] {
+  const videos = getAllVideos();
+  return videos.slice(-count).reverse();
+}
+
 export function getFeaturedVideo(): VideoEntry | null {
   const videos = getAllVideos();
   return videos.find((v) => v.featured) || videos[0] || null;

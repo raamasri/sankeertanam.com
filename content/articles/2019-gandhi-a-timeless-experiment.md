@@ -12,5 +12,3 @@ A deeply personal and wide-ranging essay on Mahatma Gandhi's enduring influence 
 The article traces Gandhi's influence on Martin Luther King Jr. (who called Gandhi "the guiding light of our technique of nonviolent social change"), Nelson Mandela (who credited Gandhi's teachings for overcoming apartheid), Aung San Suu Kyi, Albert Einstein, Cesar Chavez, and even Steve Jobs, who stood before a giant portrait of Gandhi when launching Apple's iconic "Think Different" campaign.
 
 Particularly illuminating is the analysis of the Gandhi-Tagore relationship — their vast areas of agreement on the spiritual bankruptcy of Western materialism, often overshadowed by media focus on their differences. The essay argues that Gandhi's message of Satyagraha and Ahimsa is "exponentially more relevant" today than during his lifetime.
-
-[Download the full article (PDF)](/pdfs/2019_Gandhi_A%20Timeless%20Experiment.pdf)
