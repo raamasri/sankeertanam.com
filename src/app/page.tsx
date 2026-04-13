@@ -4,8 +4,6 @@ import { getFeaturedVideo } from "@/lib/videos";
 import { ContentCard } from "@/components/ContentCard";
 import { SectionHeading } from "@/components/SectionHeading";
 import { VideoEmbed } from "@/components/VideoEmbed";
-import { SubscribeForm } from "@/components/SubscribeForm";
-
 export default function Home() {
   const articles = getAllArticles("articles").slice(0, 3);
   const featuredVideo = getFeaturedVideo();
@@ -65,7 +63,7 @@ export default function Home() {
 
       {/* Featured Video */}
       {featuredVideo && (
-        <section className="px-6 pt-24 pb-section bg-cream">
+        <section className="px-6 py-section bg-cream">
           <div className="max-w-content mx-auto">
             <SectionHeading
               label="Latest"
@@ -130,22 +128,6 @@ export default function Home() {
           </div>
         </section>
       )}
-
-      {/* Subscribe CTA */}
-      <section className="px-6 py-section bg-ink text-white">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="font-serif text-display-sm text-white mb-4">
-            Stay Connected
-          </h2>
-          <p className="text-white/60 mb-8">
-            Subscribe for updates on new articles, performances, recordings,
-            and daily Sankeertanam videos.
-          </p>
-          <div className="max-w-md mx-auto">
-            <SubscribeForm variant="inline" />
-          </div>
-        </div>
-      </section>
 
       {/* Quote — SJA-style centered text block */}
       <section className="px-6 py-section bg-parchment">

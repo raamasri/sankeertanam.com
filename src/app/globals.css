@@ -3,7 +3,7 @@
 @theme {
   --color-cream: #EDE4D3;
   --color-parchment: #E2D6C1;
-  --color-ink: #1A1A1A;
+  --color-ink: #2A1810;
   --color-ink-light: #3E3528;
   --color-ink-muted: #7A6F60;
   --color-saffron: #B8491F;
@@ -13,6 +13,9 @@
 
   --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
   --font-sans: "Inter", system-ui, sans-serif;
+
+  --spacing-section: 5rem;
+  --spacing-section-sm: 3rem;
 }
 
 html {
@@ -25,6 +28,10 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+main > section + section {
+  border-top: 1px solid var(--color-border-subtle);
 }
 
 ::selection {
