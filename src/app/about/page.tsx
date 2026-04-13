@@ -33,7 +33,7 @@ export default function AboutPage() {
 
       <article className="px-6 py-section">
         <div className="max-w-6xl mx-auto flex gap-10">
-          <div className="w-40 flex-none">
+          <div className="w-40 flex-none self-start">
             <TableOfContents entries={tocEntries} />
           </div>
           <div className="prose max-w-article flex-1 min-w-0">

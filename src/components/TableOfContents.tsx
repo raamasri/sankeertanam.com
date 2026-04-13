@@ -47,7 +47,7 @@ export function TableOfContents({ entries }: TableOfContentsProps) {
 
   return (
     <nav aria-label="Table of contents" className="hidden lg:block">
-      <div className="sticky top-28">
+      <div className="sticky top-28 max-h-[calc(100vh-8rem)] overflow-y-auto scrollbar-hide">
         <p className="text-[10px] uppercase tracking-[0.2em] text-ink-muted mb-4 font-medium">
           On this page
         </p>

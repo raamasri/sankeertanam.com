@@ -58,7 +58,7 @@ export default function ArticlesPage() {
           ) : (
             <div className="flex gap-10">
               {/* Timeline sidebar */}
-              <div className="w-32 flex-none">
+              <div className="w-32 flex-none self-start">
                 <ArticleTimeline years={timelineYears} />
               </div>
 
