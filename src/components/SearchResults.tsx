@@ -76,17 +76,11 @@ export function SearchResults({ items }: SearchResultsProps) {
           <div className="space-y-4">
             {results.map((item) => {
               const isExternal = item.href.startsWith("http");
-              const Tag = isExternal ? "a" : Link;
-              const linkProps = isExternal
-                ? { href: item.href, target: "_blank", rel: "noopener noreferrer" }
-                : { href: item.href };
+              const className =
+                "block border border-border-subtle rounded-sm p-5 bg-cream hover:border-saffron/30 transition-colors group";
 
-              return (
-                <Tag
-                  key={`${item.type}-${item.href}`}
-                  {...(linkProps as Record<string, string>)}
-                  className="block border border-border-subtle rounded-sm p-5 bg-cream hover:border-saffron/30 transition-colors group"
-                >
+              const inner = (
+                <>
                   <div className="flex items-center gap-3 mb-2">
                     <span className="text-xs uppercase tracking-widest text-saffron font-medium">
                       {item.type === "article" ? "Article" : "Video"}
@@ -108,7 +102,27 @@ export function SearchResults({ items }: SearchResultsProps) {
                       {item.description}
                     </p>
                   )}
-                </Tag>
+                </>
+              );
+
+              return isExternal ? (
+                <a
+                  key={`${item.type}-${item.href}`}
+                  href={item.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={className}
+                >
+                  {inner}
+                </a>
+              ) : (
+                <Link
+                  key={`${item.type}-${item.href}`}
+                  href={item.href}
+                  className={className}
+                >
+                  {inner}
+                </Link>
               );
             })}
           </div>
