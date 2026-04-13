@@ -42,7 +42,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
           >
             &larr; All Articles
           </Link>
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl text-ink mt-6 animate-fade-in">
+          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl text-ink mt-6 animate-fade-in">
             {article.title}
           </h1>
           <div className="mt-4 flex flex-wrap items-center gap-4 text-sm text-ink-muted animate-fade-in-delay">
