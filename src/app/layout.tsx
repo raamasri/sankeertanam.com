@@ -23,6 +23,14 @@ export const metadata: Metadata = {
   },
   description:
     "The works, writings, and musical legacy of Sangita Acharya Thiruvaiyaru S R Krishnan — Vakgeyakara, Vedic scholar, and exponent of Nama Sankeertanam & Hari-Katha.",
+  icons: {
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({

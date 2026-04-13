@@ -7,7 +7,6 @@ import { VideoEmbed } from "@/components/VideoEmbed";
 
 export default function Home() {
   const articles = getAllArticles("articles").slice(0, 3);
-  const blogPosts = getAllArticles("blog").slice(0, 3);
   const featuredVideo = getFeaturedVideo();
 
   return (
@@ -125,39 +124,6 @@ export default function Home() {
                 className="text-sm text-saffron hover:text-saffron-dark transition-colors"
               >
                 View all articles &rarr;
-              </Link>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Blog */}
-      {blogPosts.length > 0 && (
-        <section className="px-6 py-section bg-cream">
-          <div className="max-w-content mx-auto">
-            <SectionHeading
-              label="Blog"
-              title="Recent Posts"
-              description="Reflections, updates, and writings."
-            />
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {blogPosts.map((post) => (
-                <ContentCard
-                  key={post.slug}
-                  href={`/blog/${post.slug}`}
-                  title={post.title}
-                  date={post.date}
-                  description={post.description}
-                  tag="Blog"
-                />
-              ))}
-            </div>
-            <div className="mt-8">
-              <Link
-                href="/blog"
-                className="text-sm text-saffron hover:text-saffron-dark transition-colors"
-              >
-                View all posts &rarr;
               </Link>
             </div>
           </div>

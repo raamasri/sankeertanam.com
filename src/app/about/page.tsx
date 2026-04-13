@@ -176,6 +176,14 @@ export default function AboutPage() {
 
           <h2>Radha Krishnan</h2>
 
+          <div className="w-full max-w-md mx-auto mb-8">
+            <img
+              src="/images/site/img_4570.jpg"
+              alt="Krishnan and Radha"
+              className="w-full rounded-sm shadow-lg"
+            />
+          </div>
+
           <p>
             Krishnan&rsquo;s wife <strong>Radha</strong>, a retired banker from
             the Reserve Bank of India, has been a musicologist. She was a famous

@@ -1,12 +1,20 @@
 [
   {
+    "id": "21",
+    "title": "Sri Rama Caritam — Part 04 — Narayaneeyam Dasakam 34",
+    "date": "2026-04-05",
+    "description": "Part 4 of the Sri Rama Caritam series from the Narayaneeyam Dasakam 34, by Thiruvaiyaru S R Krishnan.",
+    "youtubeId": "zGsOyl4yLnc",
+    "tags": ["Narayaniyam"],
+    "featured": true
+  },
+  {
     "id": "1",
     "title": "Nārāyaneeyam — Session 14 — Dasakam 12 — Varāhāvatāram",
     "date": "2025-03-01",
     "description": "Varaha Avataram from Dasakam 12 of Narayaneeyam, by Thiruvaiyaru S R Krishnan.",
     "youtubeId": "0TC0UJIaIlo",
-    "tags": ["Narayaniyam"],
-    "featured": true
+    "tags": ["Narayaniyam"]
   },
   {
     "id": "2",

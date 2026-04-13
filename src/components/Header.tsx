@@ -7,7 +7,6 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/articles", label: "Articles" },
-  { href: "/blog", label: "Blog" },
   { href: "/videos", label: "Videos" },
   { href: "/audio", label: "Audio" },
   { href: "/gallery", label: "Gallery" },
@@ -19,8 +18,15 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-cream/95 backdrop-blur-md border-b border-border-subtle">
       <nav className="max-w-content mx-auto px-6 h-16 flex items-center justify-between">
-        <Link href="/" className="font-serif text-xl tracking-tight text-ink">
-          Sankeertanam
+        <Link href="/" className="flex items-center gap-2.5">
+          <img
+            src="/images/site/logo.png"
+            alt=""
+            className="w-8 h-8 rounded-full"
+          />
+          <span className="font-serif text-xl tracking-tight text-ink">
+            Sankeertanam
+          </span>
         </Link>
 
         {/* Desktop nav */}
