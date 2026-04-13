@@ -51,10 +51,19 @@ export default function AboutPage() {
             the tutelage of his father <em>Gana-Bhushanam</em> Brahmasri
             Kumaramangalam Srinivasa-Raghavan, a Vakgeyakara of the 20th
             century (musician-composer with ankitam or mudra,
-            &lsquo;RagaSri&rsquo;). He also learned under other stalwarts who
-            were contemporaries of his father &mdash; legendary musicians such
-            as Sangeeta Kalanidhi Maharajapuram Viswanatha Iyer, Madurai Mani
-            Iyer, and GN Balasubramaniam.
+            &lsquo;RagaSri&rsquo;). Their father composed over 300 kritis with
+            the ankitam &lsquo;RagaSri,&rsquo; encouraged by contemporaries
+            such as GN Balasubramaniam, Maharajapuram Viswanatha Iyer,
+            Adiseshayya, Aandavan Pichai, and Tiruppugazh Mani. His
+            compositions on Lord Muruga and Guruvayurappan were performed by
+            his children &mdash; Krishnan and his sister Bhooma Narayanan
+            &mdash; at the Murugan Padi Utsavam during 1956&ndash;1960, and a
+            song composed by Srinivasa-Raghavan was offered at the feet of
+            Kanchi Paramacharya Sri Chandrasekharendra Saraswati in 1957.
+            Krishnan also learned under other stalwarts who were contemporaries
+            of his father &mdash; legendary musicians such as Sangeeta
+            Kalanidhi Maharajapuram Viswanatha Iyer, Madurai Mani Iyer, and GN
+            Balasubramaniam.
           </p>
 
           <p>
@@ -194,9 +203,11 @@ export default function AboutPage() {
             >
               GuruBhakti
             </a>
-            . The Ragasri channel is named in tribute to his father&rsquo;s
-            compositional mudra. Among the most significant bodies of work on
-            these channels is the complete{" "}
+            . Both channels are co-contributed by Krishnan and his brother
+            Ragasri S. Lakshminarasimhan, who manages and curates the digital
+            archive from India. The Ragasri channel is named in tribute to
+            their father&rsquo;s compositional mudra. Among the most
+            significant bodies of work on these channels is the complete{" "}
             <strong>Narayaneeyam</strong> series &mdash; a musical rendition of
             all the Dasakams of Melpathur Narayana Bhattathiri&rsquo;s
             1034-verse devotional poem summarizing the Srimad Bhagavatam, each
@@ -253,10 +264,76 @@ export default function AboutPage() {
             Krishnan, through the Sisters, to their children.
           </p>
 
+          <hr />
+
+          <h2>Ragasri S. Lakshminarasimhan</h2>
+
           <p>
-            Krishnan&rsquo;s siblings, Ragasri S. Lakshminarasimhan, Smt.
-            Bhooma-Narayanan, and Smt. Ramamani Ranganathan continue to pursue
-            the hoary Sankeertana tradition for more than 50 years in India.
+            Krishnan&rsquo;s younger brother{" "}
+            <strong>Ragasri S. Lakshminarasimhan</strong> &mdash; affectionately
+            known in the family as Chinga &mdash; grew up in the same musical
+            household under their father <em>Gana-Bhushanam</em> Brahmasri
+            Kumaramangalam Srinivasa-Raghavan. Like Krishnan, Lakshminarasimhan
+            absorbed from childhood their father&rsquo;s over 300 kritis, the
+            family&rsquo;s Sankeertana practice, and the devotional traditions
+            of the Bhagavata lineage. He carries the prefix
+            &lsquo;Ragasri&rsquo; &mdash; their father&rsquo;s compositional
+            mudra &mdash; as part of his name, a direct marker of this
+            inheritance.
+          </p>
+
+          <p>
+            Based in India, Lakshminarasimhan is the co-contributor to the{" "}
+            <a
+              href="https://www.youtube.com/@ragasri-narasimhan51"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ragasri
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://www.youtube.com/@gurubhakti-tsrk"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GuruBhakti
+            </a>{" "}
+            YouTube channels, where he manages and curates the digital archive
+            of hundreds of live recordings. He also maintains the{" "}
+            <a
+              href="https://ragasri-narasimhan.blogspot.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ragasri blog
+            </a>
+            , where he writes extensively in Tamil on Hindu philosophy, the
+            Ramayana, the Bhagavatam, and the Narayaneeyam &mdash; preserving
+            and sharing their father&rsquo;s compositions and the family&rsquo;s
+            musical heritage for a new generation.
+          </p>
+
+          <p>
+            Lakshminarasimhan has translated the Sanskrit shlokas of all 100
+            Dasakams of the Narayaneeyam into Tamil and composed songs based on
+            them. He participates in the family&rsquo;s Nama Sankeertanam
+            alongside his siblings, and his work in documenting and digitally
+            disseminating their father&rsquo;s legacy has been indispensable
+            in ensuring that the tradition reaches audiences far beyond its
+            original circle.
+          </p>
+
+          <h3>The Siblings</h3>
+
+          <p>
+            Krishnan&rsquo;s sisters, Smt. Bhooma-Narayanan and Smt.
+            Ramamani Ranganathan, also continue the family&rsquo;s Sankeertana
+            tradition in India. Smt. Ramamani Ranganathan conducts daily Paduka
+            Sahasra Parayanam in Hyderabad, and Smt. Bhooma-Narayanan carries
+            forward the Nama Sankeertanam practice originally led by their guru
+            Poojyasri Nathamuni Narayana Iyengar &mdash; a tradition now
+            sustained for over 50 years.
           </p>
 
           <hr />
