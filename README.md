@@ -188,7 +188,7 @@ The about page (`/about`) is the most content-rich page. Its sections, in order:
 5. **Theater and Composition** — Ujjain festivals, Kalidasa plays, Sabarimala opera, YouTube channels (co-contributed with Lakshminarasimhan), Narayaneeyam series
 6. **A Disciple of Kanchi Paramacharya** — Vedic training, 50+ years teaching
 7. **The Krishnan Sisters** — Priya, Harini, Subhapriya. 1979 touring. Fourth generation: Kaanchana, Shankara, Janani Krishnan-Jha, Abhaya Krishnan-Jha, Raama Srivatsan, Keshavan Srivatsan, Hari Srivatsan
-8. **Ragasri S. Lakshminarasimhan** — Krishnan's younger brother (nicknamed Chinga). Co-contributor to Ragasri and GuruBhakti YouTube channels. Maintains the Ragasri blog (ragasri-narasimhan.blogspot.com). Translated all 100 Narayaneeyam Dasakams into Tamil
+8. **Ragasri S. Lakshminarasimhan** — Krishnan's younger brother. Co-contributor to Ragasri and GuruBhakti YouTube channels. Maintains the Ragasri blog (ragasri-narasimhan.blogspot.com). Translated all 100 Narayaneeyam Dasakams into Tamil
 9. **The Siblings** — Smt. Bhooma-Narayanan (continues Nathamuni Narayana Iyengar's Nama Sankeertanam), Smt. Ramamani Ranganathan (daily Paduka Sahasra Parayanam in Hyderabad)
 10. **Radha Krishnan** — Wife, RBI banker, musicologist, 1966 Himalayan mountaineer trained by Tenzing Norgay, Silver Axe award
 11. **Beyond Music** — Gold medalist University of Madras, FRCIB/FFA London, banking career since 1965, founder of two US fiduciary corporations, Special Deputy Commissioner of California DFPI
@@ -203,7 +203,7 @@ The about page (`/about`) is the most content-rich page. Its sections, in order:
 |--------|-------------|-------|
 | Kumaramangalam Srinivasa-Raghavan | Father | Vakgeyakara, mudra "RagaSri", 300+ kritis. Gana-Bhushanam |
 | Radha Krishnan | Wife | RBI banker, musicologist, Himalayan mountaineer (1966) |
-| Ragasri S. Lakshminarasimhan | Younger brother | Co-contributor to YouTube channels, Ragasri blog, Narayaneeyam Tamil translator. Nicknamed "Chinga" |
+| Ragasri S. Lakshminarasimhan | Younger brother | Co-contributor to YouTube channels, Ragasri blog, Narayaneeyam Tamil translator |
 | Smt. Bhooma-Narayanan | Sister | Continues Nama Sankeertanam in India |
 | Smt. Ramamani Ranganathan | Sister | Daily Paduka Sahasra Parayanam in Hyderabad |
 | Priya Krishnan Parameswaran | Daughter | Krishnan Sisters. Co-produced Sitayascharitam Mahat 2016. Children: Kaanchana, Shankara |
