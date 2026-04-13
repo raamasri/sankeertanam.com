@@ -7,7 +7,7 @@ export function PageHeader({ title, subtitle }: PageHeaderProps) {
   return (
     <div className="pt-32 pb-16 px-6 border-b border-border-subtle bg-parchment">
       <div className="max-w-content mx-auto">
-        <h1 className="font-serif text-display text-ink animate-fade-in">
+        <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl text-ink animate-fade-in">
           {title}
         </h1>
         {subtitle && (
