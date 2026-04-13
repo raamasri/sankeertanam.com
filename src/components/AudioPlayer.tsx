@@ -65,7 +65,7 @@ export function AudioPlayer({ albums }: AudioPlayerProps) {
               <div className="border-t border-border-subtle bg-parchment/50">
                 <ul className="divide-y divide-border-subtle">
                   {album.tracks.map((track) => {
-                    const trackPath = `https://raw.githubusercontent.com/raamasri/sankeertanam.com/main/public/audio/${encodeURIComponent(album.folder)}/${encodeURIComponent(track)}`;
+                    const trackPath = `/audio/${encodeURIComponent(album.folder)}/${encodeURIComponent(track)}`;
                     const isPlaying = playing === trackPath;
                     return (
                       <li key={track} className="px-5 py-3">

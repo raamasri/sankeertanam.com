@@ -1,6 +1,6 @@
 {
   "framework": "nextjs",
-  "buildCommand": "npm run build",
+  "buildCommand": "git lfs install && git lfs pull && npm run build",
   "installCommand": "npm install",
   "git": {
     "deploymentEnabled": true
