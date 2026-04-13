@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { SubscribeForm } from "@/components/SubscribeForm";
 
 const footerLinks = [
   { href: "/about", label: "About" },
@@ -74,7 +75,20 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
+        {/* Mailing List */}
+        <div className="mt-12 pt-8 border-t border-white/10">
+          <h4 className="text-xs uppercase tracking-widest text-white/40 mb-3">
+            Stay Updated
+          </h4>
+          <p className="text-sm text-white/50 mb-4 max-w-sm">
+            Subscribe for updates on new articles, performances, and recordings.
+          </p>
+          <div className="max-w-md">
+            <SubscribeForm variant="inline" />
+          </div>
+        </div>
+
+        <div className="mt-10 pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-xs text-white/30">
             &copy; {new Date().getFullYear()} Sankeertanam. All rights reserved.
           </p>
