@@ -77,7 +77,7 @@ export default function AboutPage() {
               className="w-full rounded-sm shadow-lg"
             />
             <p className="text-sm text-ink-muted text-center mt-2 italic">
-              Young Krishnan with the veena
+              1972, SK with Veena
             </p>
           </div>
 
@@ -105,7 +105,7 @@ export default function AboutPage() {
                 className="w-full rounded-sm shadow-lg"
               />
               <p className="text-xs text-ink-muted text-center mt-2 italic">
-                KSR &mdash; an early portrait
+                KSR, RAF Pilot Officer, 1941
               </p>
             </div>
             <div>
@@ -115,7 +115,7 @@ export default function AboutPage() {
                 className="w-full rounded-sm shadow-lg"
               />
               <p className="text-xs text-ink-muted text-center mt-2 italic">
-                KSR in uniform
+                Sq. Leader KSR, 1944
               </p>
             </div>
             <div>
@@ -125,7 +125,7 @@ export default function AboutPage() {
                 className="w-full rounded-sm shadow-lg"
               />
               <p className="text-xs text-ink-muted text-center mt-2 italic">
-                KSR during his years of service
+                KSR, 1945, RAF
               </p>
             </div>
           </div>
@@ -164,7 +164,7 @@ export default function AboutPage() {
               className="w-full rounded-sm shadow-lg"
             />
             <p className="text-sm text-ink-muted text-center mt-2 italic">
-              Left to right: VVS, Krishnan, Bhooma, and Vinayakaram
+              1956, With Sri Adiseshayya
             </p>
           </div>
 
@@ -229,9 +229,12 @@ export default function AboutPage() {
           <div className="w-full max-w-2xl mx-auto mb-8">
             <img
               src="/images/site/krishnan_chief_justice_1965.png"
-              alt="Young Krishnan presenting a painting to a former Chief Justice and scholar of Scriptures, circa 1965"
+              alt="1965, Sir CPR Iyer, Triveni Ramayanam"
               className="w-full rounded-sm shadow-lg"
             />
+            <p className="text-sm text-ink-muted text-center mt-2 italic">
+              1965, Sir CPR Iyer, Triveni Ramayanam
+            </p>
           </div>
 
           <p>
@@ -496,7 +499,7 @@ export default function AboutPage() {
               className="w-full rounded-sm shadow-lg"
             />
             <p className="text-sm text-ink-muted text-center mt-2 italic">
-              The siblings as children
+              With VVS and Vikku, 1956
             </p>
           </div>
 
@@ -535,6 +538,52 @@ export default function AboutPage() {
           <hr />
 
           <h2 id="beyond-music" className="scroll-mt-24">Beyond Music</h2>
+
+          <div className="w-full max-w-2xl mx-auto mb-8 grid grid-cols-2 gap-4">
+            <div>
+              <img
+                src="/images/site/jimmy_carter_1978.png"
+                alt="Jimmy Carter, 1978"
+                className="w-full rounded-sm shadow-lg"
+              />
+              <p className="text-xs text-ink-muted text-center mt-2 italic">
+                Jimmy Carter, 1978
+              </p>
+            </div>
+            <div>
+              <img
+                src="/images/site/carter_buchwald_1978.png"
+                alt="1978, With Pres. Carter & Buchwald"
+                className="w-full rounded-sm shadow-lg"
+              />
+              <p className="text-xs text-ink-muted text-center mt-2 italic">
+                1978, With Pres. Carter &amp; Buchwald
+              </p>
+            </div>
+          </div>
+
+          <div className="w-full max-w-2xl mx-auto mb-8 grid grid-cols-2 gap-4">
+            <div>
+              <img
+                src="/images/site/president_clinton_2000.png"
+                alt="President Clinton, 2000"
+                className="w-full rounded-sm shadow-lg"
+              />
+              <p className="text-xs text-ink-muted text-center mt-2 italic">
+                President Clinton, 2000
+              </p>
+            </div>
+            <div>
+              <img
+                src="/images/site/clinton_2000_collage.png"
+                alt="President Clinton, 2000 — Collage"
+                className="w-full rounded-sm shadow-lg"
+              />
+              <p className="text-xs text-ink-muted text-center mt-2 italic">
+                President Clinton, 2000 &mdash; Collage
+              </p>
+            </div>
+          </div>
 
           <p>
             Krishnan, a gold medalist from University of Madras, one of the
