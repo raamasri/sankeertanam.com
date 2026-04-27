@@ -112,37 +112,37 @@ export default function AboutPage() {
             Madurai Mani Iyer.
           </p>
 
-          <div className="w-full max-w-2xl mx-auto mb-8">
-            <img
-              src="/images/site/ksr_military_portrait.png"
-              alt="Gana-Bhushanam KSR (RagaSri) — an early portrait"
-              className="w-full rounded-sm shadow-lg"
-            />
-            <p className="text-sm text-ink-muted text-center mt-2 italic">
-              G&atilde;na-Bh&ucirc;sha&#x1E47;am KSR (RagaSri) &mdash; an early portrait
-            </p>
-          </div>
-
-          <div className="w-full max-w-2xl mx-auto mb-8">
-            <img
-              src="/images/site/ksr_squadron_leader.png"
-              alt="KSR in uniform"
-              className="w-full rounded-sm shadow-lg"
-            />
-            <p className="text-sm text-ink-muted text-center mt-2 italic">
-              KSR in uniform
-            </p>
-          </div>
-
-          <div className="w-full max-w-2xl mx-auto mb-8">
-            <img
-              src="/images/site/ksr_with_spitfire.png"
-              alt="KSR during his years of service"
-              className="w-full rounded-sm shadow-lg"
-            />
-            <p className="text-sm text-ink-muted text-center mt-2 italic">
-              KSR during his years of service
-            </p>
+          <div className="w-full max-w-2xl mx-auto mb-8 grid grid-cols-3 gap-4">
+            <div>
+              <img
+                src="/images/site/ksr_military_portrait.png"
+                alt="Gana-Bhushanam KSR (RagaSri) — an early portrait"
+                className="w-full rounded-sm shadow-lg"
+              />
+              <p className="text-xs text-ink-muted text-center mt-2 italic">
+                KSR &mdash; an early portrait
+              </p>
+            </div>
+            <div>
+              <img
+                src="/images/site/ksr_squadron_leader.png"
+                alt="KSR in uniform"
+                className="w-full rounded-sm shadow-lg"
+              />
+              <p className="text-xs text-ink-muted text-center mt-2 italic">
+                KSR in uniform
+              </p>
+            </div>
+            <div>
+              <img
+                src="/images/site/ksr_with_spitfire.png"
+                alt="KSR during his years of service"
+                className="w-full rounded-sm shadow-lg"
+              />
+              <p className="text-xs text-ink-muted text-center mt-2 italic">
+                KSR during his years of service
+              </p>
+            </div>
           </div>
 
           <p>
