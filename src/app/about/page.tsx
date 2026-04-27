@@ -97,21 +97,6 @@ export default function AboutPage() {
             Aandavan Pichai).
           </p>
 
-          <p>
-            KSR (RagaSri) translated all the 100 dasakams of Sriman
-            Narayaneeyam into Tamil verses (in identical metrical formats)
-            &mdash; which will soon be curated for digital preservation for
-            posterity. Many of RagaSri&rsquo;s compositions on Lord
-            Subrahmanya, Par&atilde;&#x015B;akti, Lord Krishna /
-            Guruvayurappan were performed by Krishnan and his sister Bhooma
-            Narayanan (aka Bhooma Srinivasa Raghavan), as offerings at the feet
-            of Kanchi Paramacharya Sri Chandrasekharendra Saraswati in the
-            1950s and 1960s. Krishnan also learned several rare compositions
-            from legendary musicians, Sangeeta Kal&atilde;nidh&icirc;s
-            Mahar&atilde;japuram Viswanatha Iyer, G.N. Balasubramaniam and
-            Madurai Mani Iyer.
-          </p>
-
           <div className="w-full max-w-2xl mx-auto mb-8 grid grid-cols-3 gap-4">
             <div>
               <img
@@ -144,6 +129,21 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
+
+          <p>
+            KSR (RagaSri) translated all the 100 dasakams of Sriman
+            Narayaneeyam into Tamil verses (in identical metrical formats)
+            &mdash; which will soon be curated for digital preservation for
+            posterity. Many of RagaSri&rsquo;s compositions on Lord
+            Subrahmanya, Par&atilde;&#x015B;akti, Lord Krishna /
+            Guruvayurappan were performed by Krishnan and his sister Bhooma
+            Narayanan (aka Bhooma Srinivasa Raghavan), as offerings at the feet
+            of Kanchi Paramacharya Sri Chandrasekharendra Saraswati in the
+            1950s and 1960s. Krishnan also learned several rare compositions
+            from legendary musicians, Sangeeta Kal&atilde;nidh&icirc;s
+            Mahar&atilde;japuram Viswanatha Iyer, G.N. Balasubramaniam and
+            Madurai Mani Iyer.
+          </p>
 
           <p>
             Krishnan debuted in 1955 as a musician and since then has given
