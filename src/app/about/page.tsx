@@ -70,6 +70,17 @@ export default function AboutPage() {
             Ach&atilde;ry&atilde;s and Patrons
           </h2>
 
+          <div className="w-full max-w-2xl mx-auto mb-8">
+            <img
+              src="/images/site/krishnan_young_veena.png"
+              alt="Young Krishnan with the veena"
+              className="w-full rounded-sm shadow-lg"
+            />
+            <p className="text-sm text-ink-muted text-center mt-2 italic">
+              Young Krishnan with the veena
+            </p>
+          </div>
+
           <p>
             Krishnan started training in Karnataka Sang&icirc;tam very young,
             under the tutelage of his father{" "}
@@ -101,6 +112,39 @@ export default function AboutPage() {
             Madurai Mani Iyer.
           </p>
 
+          <div className="w-full max-w-2xl mx-auto mb-8">
+            <img
+              src="/images/site/ksr_military_portrait.png"
+              alt="Gana-Bhushanam KSR (RagaSri) — an early portrait"
+              className="w-full rounded-sm shadow-lg"
+            />
+            <p className="text-sm text-ink-muted text-center mt-2 italic">
+              G&atilde;na-Bh&ucirc;sha&#x1E47;am KSR (RagaSri) &mdash; an early portrait
+            </p>
+          </div>
+
+          <div className="w-full max-w-2xl mx-auto mb-8">
+            <img
+              src="/images/site/ksr_squadron_leader.png"
+              alt="KSR in uniform"
+              className="w-full rounded-sm shadow-lg"
+            />
+            <p className="text-sm text-ink-muted text-center mt-2 italic">
+              KSR in uniform
+            </p>
+          </div>
+
+          <div className="w-full max-w-2xl mx-auto mb-8">
+            <img
+              src="/images/site/ksr_with_spitfire.png"
+              alt="KSR during his years of service"
+              className="w-full rounded-sm shadow-lg"
+            />
+            <p className="text-sm text-ink-muted text-center mt-2 italic">
+              KSR during his years of service
+            </p>
+          </div>
+
           <p>
             Krishnan debuted in 1955 as a musician and since then has given
             numerous concerts in prestigious venues in India, Great Britain,
@@ -112,6 +156,17 @@ export default function AboutPage() {
           <hr />
 
           <h2 id="the-legacy" className="scroll-mt-24">Krishnan&rsquo;s Legacy</h2>
+
+          <div className="w-full max-w-2xl mx-auto mb-8">
+            <img
+              src="/images/site/family_sankeertanam_gathering.png"
+              alt="A Sankeertanam gathering — left to right: VVS, Krishnan, Bhooma, and Vinayakaram"
+              className="w-full rounded-sm shadow-lg"
+            />
+            <p className="text-sm text-ink-muted text-center mt-2 italic">
+              Left to right: VVS, Krishnan, Bhooma, and Vinayakaram
+            </p>
+          </div>
 
           <p>
             Krishnan is a celebrated exponent of{" "}
@@ -437,9 +492,12 @@ export default function AboutPage() {
           <div className="w-full max-w-2xl mx-auto mb-8">
             <img
               src="/images/site/krishnan_siblings_childhood.png"
-              alt="Krishnan and his siblings as children"
+              alt="The Krishnan siblings as children — left to right: VVS, Krishnan, Bhooma, and Vinayakaram"
               className="w-full rounded-sm shadow-lg"
             />
+            <p className="text-sm text-ink-muted text-center mt-2 italic">
+              The siblings as children
+            </p>
           </div>
 
           <p>
